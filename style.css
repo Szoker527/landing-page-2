@@ -52,6 +52,8 @@ footer {
     justify-content: center;
     align-items: center;
     background-color: #1F2937;
+    gap: 150px;
+    padding: 60px;
 }
 
 .left-text {
@@ -63,7 +65,67 @@ footer {
 }
 
 .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 500px;
-    text-align: center;
+    background-color: gray;
+    height: 250px;
 }
 
+.title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.btn-top {
+    font-size: 18px;
+    border-style: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+}
+
+.info-side {
+    background-color: #F9FAF8;
+}
+
+.info-title {
+    text-align: center;
+    padding-top: 25px;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.info-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding: 50px 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 170px;
+    height: 225px;    
+}
+
+.card-image {
+    flex: 1;
+    border: 3px solid #3882F6; 
+    border-radius: 20px;
+}
+
+.card-text {
+    margin-top: 10px;
+    text-align: center;
+}
