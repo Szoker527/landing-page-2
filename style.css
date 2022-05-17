@@ -154,3 +154,40 @@ footer {
     align-self: flex-end;
     font-weight: bold;
 }
+
+.signup-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0;
+}
+
+.signup-container {
+    display: flex;
+    width: 600px;
+    background-color: #3882F6;
+    border-radius: 7px;
+    padding: 30px 80px;
+}
+
+.signup-container button {
+    margin-left: auto;
+    align-self: center;
+    font-size: 16px;
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
+    padding: 5px 15px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+}
+
+.big-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.small-text {
+    color: #F9FAF8;
+    font-size: 14px;
+}
